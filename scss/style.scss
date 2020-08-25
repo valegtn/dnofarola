@@ -1,0 +1,341 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+}
+
+$primary-color: rgb(108, 217, 208);
+$secondary-color: rgb(67, 13, 117);
+
+.jumbotron-fluid {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+	font-size: 3em;
+	font-weight: 800;
+    background: linear-gradient(180deg, $secondary-color, $primary-color, whitesmoke);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 1,5em;
+    text-align: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1em;
+    background-color:black;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 0,8em;
+    margin-top: 2em;
+    margin-left: 2em;
+    line-height: 1em;
+    text-align: left;
+}
+
+body, html {
+    height: 100%;
+}
+
+.index__hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://image.freepik.com/free-vector/neon-lights-stage-background_23-2148331289.jpg);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+
+.index__hero-text {
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+.home__decoration-images {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    filter: grayscale(1);
+}
+
+.home__decoration-images:hover {
+    filter: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .home__decoration-images {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        filter: none;
+    }
+  }
+
+.btn-primary {
+    background-color: $secondary-color;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: $primary-color;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+.card {
+    margin: 1em;
+    border: none;
+    background-color:black;;
+}
+
+/*PROYECTOS*/
+.proyectos__hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://media.istockphoto.com/photos/3d-rendering-glowing-lines-neon-lights-abstract-psychedelic-vibrant-picture-id909101112?k=6&m=909101112&s=612x612&w=0&h=5kGUmypd10480HAVhXLMGYNVXKde-6etn4K0syE4skI=
+    );
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+
+.proyectos__hero-text {
+    text-align: center;
+    position: absolute;
+    color: whitesmoke;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+.proyectos__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 15px;
+    }
+
+    .proyectos__container img {
+    width: 100%;
+    display: block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all 100ms ease-out;
+    }
+    .proyectos__container img:hover {
+    transform: scale(1.04);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    }
+
+    @media only screen and (max-width: 768px) {
+        .proyectos__container img {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            filter: none;
+        }
+      }
+
+
+
+/*SOBRE FAROLA*/
+.about__hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://besthqwallpapers.com/Uploads/21-12-2019/116771/thumb2-purple-neon-lights-black-background-purple-neon-light-neon-background.jpg
+    );
+    height: 80%;
+    margin-bottom: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+
+.about__hero-text {
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+/*INSPIRACION*/
+.inspiracion__hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://lh3.googleusercontent.com/proxy/uqilwAJKXsJrcja1XRnQbepvYpsZoVrvRtx1XXsj_4AnPqTEFA3L2ybqvX2BuIiJqe8TUZ-qx7UZ-VuV3WlHD0hXYESebOQpl91EizmIHbfl2x7oHsiN6ivjIL07fbYFOum97AvlsQ
+    );
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+
+.inspiracion__hero-text {
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+.inspiracion__frames{
+    margin: 2em;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid $primary-color;
+    margin-top: 2em;
+}
+  
+th, td {
+    text-align: left;
+    padding: 0,8em;
+}
+  
+tr:nth-child(even) {
+    background-color: $secondary-color;
+}
+
+/*Contacto*/
+.contacto__hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+
+.contacto__hero-text {
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+fieldset {
+    border: none;
+    display: block;
+    margin-top: 2em;
+}
+
+input, textarea, text {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    border: solid 1px  #6cd9d0;
+    resize: vertical;
+    border-radius: 4px;
+    line-height: 2px;
+    margin: 2px 0px 5px;
+}
+
+input[type=submit] {
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: $secondary-color;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:active {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
+
+.contacto__gif-boceto {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.slidein {
+    width: auto;
+    height: 40px;
+    margin: 5px;
+    padding-left: 5px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/*Footer*/
+footer {
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    font-size: 0,9rem;
+    text-align: center;
+    margin-top: 1em;
+    align-content: center;;
+}
+
+.social-svg {
+    border-radius: 0;
+    font-size: 17px;
+    padding: 5px;
+    width: 32px;
+    height: 40px; }
+    .social-svg:hover {
+      border-radius: 0;
+      font-size: 17px;
+      padding: 5px;
+      width: 32px;
+      height: 40px;
+      transform: rotateZ(45deg); }
