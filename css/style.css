@@ -49,7 +49,7 @@ body, html {
   height: 100%; }
 
 .index__hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://image.freepik.com/free-vector/neon-lights-stage-background_23-2148331289.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/fondo-index-farola.jpg);
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ body, html {
 
 /*PROYECTOS*/
 .proyectos__hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://media.istockphoto.com/photos/3d-rendering-glowing-lines-neon-lights-abstract-psychedelic-vibrant-picture-id909101112?k=6&m=909101112&s=612x612&w=0&h=5kGUmypd10480HAVhXLMGYNVXKde-6etn4K0syE4skI=);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/fondo-proyectos.jpg);
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,28 +136,9 @@ body, html {
     margin-bottom: 1em;
     filter: none; } }
 
-/*SOBRE FAROLA*/
-.about__hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://besthqwallpapers.com/Uploads/21-12-2019/116771/thumb2-purple-neon-lights-black-background-purple-neon-light-neon-background.jpg);
-  height: 80%;
-  margin-bottom: 2em;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-
-.about__hero-text {
-  text-align: center;
-  position: absolute;
-  color: white;
-  font-size: 1em;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
 /*INSPIRACION*/
 .inspiracion__hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://lh3.googleusercontent.com/proxy/uqilwAJKXsJrcja1XRnQbepvYpsZoVrvRtx1XXsj_4AnPqTEFA3L2ybqvX2BuIiJqe8TUZ-qx7UZ-VuV3WlHD0hXYESebOQpl91EizmIHbfl2x7oHsiN6ivjIL07fbYFOum97AvlsQ);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/fondo-inspiracion.jpg);
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,9 +171,28 @@ th, td {
 tr:nth-child(even) {
   background-color: #430d75; }
 
+/*SOBRE FAROLA*/
+.about__hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/fondo-sobre-mi.jpg);
+  height: 80%;
+  margin-bottom: 2em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.about__hero-text {
+  text-align: center;
+  position: absolute;
+  color: white;
+  font-size: 1em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 /*Contacto*/
 .contacto__hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/fondo-contacto.jpeg);
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
