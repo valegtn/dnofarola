@@ -82,12 +82,20 @@ body, html {
 .btn-primary {
   background-color: #430d75;
   font-family: 'Montserrat', sans-serif;
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 .btn-primary:hover {
   background-color: #6cd9d0;
   font-family: 'Montserrat', sans-serif;
-  border: none; }
+  border: none;
+  cursor: pointer; }
+
+.btn-primary:active {
+  background-color: crimson;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  cursor: pointer; }
 
 .card {
   margin: 1em;

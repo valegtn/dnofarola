@@ -99,12 +99,21 @@ body, html {
     background-color: $secondary-color;
     font-family: 'Montserrat', sans-serif;
     border: none;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
     background-color: $primary-color;
     font-family: 'Montserrat', sans-serif;
     border: none;
+    cursor: pointer;
+}
+
+.btn-primary:active {
+    background-color: crimson;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    cursor: pointer;
 }
 
 .card {
